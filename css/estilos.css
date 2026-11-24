@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+
+:root {
+  --pop-negro: #000000;
+  --pop-carbon: #1a1a1a;
+  --pop-linea: #d9d9d9;
+  --pop-blanco: #ffffff;
+  --pop-gris: #737373;
+  --pop-acento: #5A78FF;
+  --pop-gris-oscuro: #404040;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1, h2, h3, h5 {
+  font-family: "Archivo", sans-serif;
+}
+
+.navbar-brand {
+  font-family: "Archivo", sans-serif;
+}
+
+strong {
+  font-weight: 700;
+  color: var(--pop-negro);
+}
+
+
+.bg-dark {
+  background-color: var(--pop-blanco) !important;
+}
+
+.bg-black {
+  background-color: var(--pop-negro) !important;
+}
+
+.text-light {
+  color: var(--pop-negro) !important;
+}
+
+.text-danger {
+  color: var(--pop-gris-oscuro) !important;
+}
+
+.text-secondary {
+  color: var(--pop-gris) !important;
+}
+
+.border-secondary {
+  border-color: var(--pop-linea) !important;
+}
+
+.navbar.bg-black {
+  background-color: var(--pop-blanco) !important;
+}
+
+.navbar {
+  padding: 12px 0;
+}
+
+.navbar-brand {
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: var(--pop-negro);
+}
+
+.navbar .navbar-brand:hover {
+  color: var(--pop-negro);
+}
+
+.navbar .navbar-nav {
+  gap: 20px;
+}
+
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-nav .nav-link.active {
+  font-size: 0.95rem;
+  color: var(--pop-negro);
+  transition: color 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--pop-gris);
+}
+
+
+.btn-danger {
+  background-color: var(--pop-negro);
+  border-color: var(--pop-negro);
+  color: var(--pop-blanco);
+  font-weight: 700;
+  border-radius: 0;
+  padding: 10px 24px;
+  transition: all 0.4s ease;
+}
+
+.btn-danger:hover {
+  background-color: var(--pop-gris-oscuro);
+  border-color: var(--pop-gris-oscuro);
+  color: var(--pop-blanco);
+  transform: translateY(-3px);
+}
+
+.navbar .btn-danger {
+  background-color: var(--pop-negro);
+  border-color: var(--pop-negro);
+  color: var(--pop-blanco);
+}
+
+.navbar .btn-danger:hover {
+  background-color: var(--pop-acento);
+  border-color: var(--pop-acento);
+  color: var(--pop-negro);
+}
+
+
+/* ---------- botones con borde ---------- */
+
+.btn-outline-danger {
+  color: var(--pop-negro);
+  border-color: var(--pop-negro);
+  border-radius: 0;
+  padding: 10px 24px;
+  transition: all 0.4s ease;
+}
+
+.btn-outline-danger:hover {
+  background-color: var(--pop-negro);
+  border-color: var(--pop-negro);
+  color: var(--pop-blanco);
+  transform: translateY(-3px);
+}
+
+
+header {
+  background-color: var(--pop-negro);
+  color: var(--pop-blanco);
+}
+
+header h1 {
+  color: var(--pop-blanco);
+  line-height: 1;
+  letter-spacing: -3px;
+}
+
+header h2 {
+  color: var(--pop-blanco);
+  line-height: 1.05;
+  letter-spacing: -3px;
+}
+
+header .text-danger {
+  color: var(--pop-acento) !important;
+}
+
+header .text-secondary {
+  color: #bcbcbc !important;
+}
+
+header .border-secondary {
+  border-color: #454545 !important;
+}
+
+p.text-danger {
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+}
+
+
+header .btn-danger {
+  background-color: var(--pop-acento);
+  border-color: var(--pop-acento);
+  color: var(--pop-negro);
+}
+
+header .btn-danger:hover {
+  background-color: var(--pop-blanco);
+  border-color: var(--pop-blanco);
+  color: var(--pop-negro);
+}
+
+header .btn-outline-danger {
+  color: var(--pop-blanco);
+  border-color: var(--pop-blanco);
+}
+
+header .btn-outline-danger:hover {
+  background-color: var(--pop-blanco);
+  border-color: var(--pop-blanco);
+  color: var(--pop-negro);
+}
+
+
+/* ---------- artistas ---------- */
+
+.card {
+  border-radius: 0;
+}
+
+#artistas .text-danger {
+  color: var(--pop-gris-oscuro) !important;
+}
+
+#lista-artistas .card {
+  background-color: var(--pop-blanco) !important;
+  transition: all 0.5s ease;
+}
+
+#lista-artistas .card:hover {
+  border-color: var(--pop-negro) !important;
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+}
+
+
+
+#lista-artistas img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+
+#cultura {
+  color: var(--pop-blanco);
+}
+
+#cultura .text-danger {
+  color: var(--pop-acento) !important;
+}
+
+#cultura .text-secondary {
+  color: #bcbcbc !important;
+}
+
+#cultura .row {
+  transition: background-color 0.4s ease;
+}
+
+#cultura .row:hover {
+  background-color: var(--pop-carbon);
+}
+
+
+#estilo {
+  background-color: var(--pop-blanco);
+  color: var(--pop-negro);
+}
+
+#estilo .text-danger {
+  color: var(--pop-gris-oscuro) !important;
+}
+
+#estilo h2 {
+  letter-spacing: -1px;
+}
+
+#estilo img {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  border: 1px solid var(--pop-linea);
+}
+
+
+.modal-content {
+  background-color: var(--pop-blanco);
+  color: var(--pop-negro);
+  border-radius: 0;
+}
+
+.modal-title {
+  font-size: 1.7rem;
+  font-weight: 800;
+}
+
+.modal-footer .btn-outline-danger {
+  color: var(--pop-negro);
+  border-color: var(--pop-negro);
+}
+
+.modal-footer .btn-outline-danger:hover {
+  color: var(--pop-blanco);
+  background-color: var(--pop-negro);
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--pop-acento);
+  box-shadow: 0 0 0 4px rgba(90, 120, 255, 0.15);
+}
+
+
+a {
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--pop-gris-oscuro);
+}
+
+footer {
+  background-color: var(--pop-blanco);
+}
+
+footer a {
+  font-size: 0.95rem;
+  padding: 8px;
+  color: var(--pop-gris);
+}
+
+footer .navbar-brand {
+  color: var(--pop-negro);
+}
+
+footer .navbar-brand:hover {
+  color: var(--pop-gris-oscuro);
+}

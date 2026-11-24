@@ -1,0 +1,43 @@
+
+[
+  {
+    "numero": "01",
+    "nombre": "TINI",
+    "genero": "Pop",
+    "estilo": "Performance y moda",
+    "descripcion": "Una artista que combina el pop con una identidad visual en constante transformación. Sus coreografías, vestuarios y puestas en escena forman parte de su universo musical.",
+    "imagen": "img/tini.jpg"
+  },
+  {
+    "numero": "02",
+    "nombre": "Emilia",
+    "genero": "Pop urbano",
+    "estilo": "Estética Y2K",
+    "descripcion": "Su identidad visual recupera elementos de la moda de los años 2000. Brillos, accesorios y referencias dosmileras acompañan sus canciones y videoclips.",
+    "imagen": "img/emilia.jpg"
+  },
+  {
+    "numero": "03",
+    "nombre": "María Becerra",
+    "genero": "Pop urbano",
+    "estilo": "Streetwear y moda urbana",
+    "descripcion": "Combina sonidos urbanos con una estética versátil. Sus videoclips y presentaciones exploran diferentes estilos, colores y propuestas visuales.",
+    "imagen": "img/maria-becerra.jpg"
+  },
+  {
+    "numero": "04",
+    "nombre": "Nicki Nicole",
+    "genero": "Urbano y pop",
+    "estilo": "Street style",
+    "descripcion": "Su universo visual combina referencias de la moda urbana con una imagen personal y contemporánea. La música y la estética forman parte de su identidad artística.",
+    "imagen": "img/nicki-nicole.jpg"
+  },
+  {
+    "numero": "05",
+    "nombre": "Lali",
+    "genero": "Pop",
+    "estilo": "Moda y expresión escénica",
+    "descripcion": "Una artista que utiliza el vestuario, las coreografías y la puesta en escena como parte de su expresión. Sus shows combinan música, moda y una identidad visual propia.",
+    "imagen": "img/lali.jpg"
+  }
+]
